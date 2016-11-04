@@ -1,26 +1,1381 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Marlon JM</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+<meta charset="utf-8">
+<meta name="description" content="En la página de la Escuela de Ingeniería Informática podrás encontrar todo lo necesario para poder aclarar tus dudas sobre cualquiera de nuestras 3 carreras, así como de los diferentes proyectos de investigación o extensión, además de las actividades que realiza la Escuela." />
+<meta name="author" content="Diseñadora: Valeria Díaz, Maquetadores: Sergio Serrano y Marlon Jarquín ">
+<meta name="keywords" content="Informática UIA Escuela de Ingeniería Informática Software Sistemas Investigación Extensión">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>Escuela de Ingeniería Informática</title>
+<!--   ***********************************
+                    Scripts
+       *********************************** 
+ -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
+
+    
+    
+
+    <script src="js/arriba.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/modernizr.js"></script>
+    <!--Galeria-->
+    <script src="fresco/js/fresco/fresco.js"></script>
+
+<!--   ***********************************
+                    Estilos
+       *********************************** 
+ -->
+	<!--Bootstrap-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="css/scrolling-nav.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/hamburgers.css">
+    <link rel="stylesheet" type="text/css" href="css/timeline.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <!--Solo Slider-->
+    <link type="text/css" rel="stylesheet" href="css/sheet-slider.css"/>
+    <link type="text/css" rel="stylesheet" href="css/darken.css"/>
+    <link type="text/css" rel="stylesheet" href="css/amber.css"/>
+    <link type="text/css" rel="stylesheet" href="fresco/css/fresco/fresco.css"/>
+
 </head>
-<body>
 
-	<div id="wrapper">
-		<div id="header">
+<body id="page-top" data-spy="scroll" data-target="#sidebar" >
+<!--   ***********************************
+                Header Section
+       *********************************** 
+ -->
+<div class="container animation-element slide-right-carreras testimonial" style="width:100%;">
+  <header>
+            <img id="logo" src="img/logonegrouia.png">
+            <nav>
+                <ul id="menu">
+                    <li><a class="page-scroll" href="#noticias">NOTICIAS</a></li>
+                    <li><a class="page-scroll" href="#direccion">DIRECCIÓN</a></li>
+                    <li><a class="page-scroll" href="#investigacion">INVESTIGACIÓN</a></li>
+                    <li><a class="page-scroll" href="#extension">EXTENSIÓN</a></li>
+                    <li><a class="page-scroll" href="#carreras">CARRERAS</a></li>
+                    <li><a class="page-scroll" href="#cursosLibres">CURSOS LIBRES</a></li>
+                    <li><a class="page-scroll" href="#cronograma">CRONOGRAMA</a></li>
+                    <li><a class="page-scroll" href="#galeria">GALERÍA</a></li>
+                    <li><a class="page-scroll" href="#empleos">EMPLEOS</a></li>
+                </ul>
+            </nav>
+        </header>
+</div>
 
-			<div id="logo"></div>	
+    <span class="ir-arriba icon-arrow-up2"></span>
+<!--   ***********************************
+                Carrusel Section
+       *********************************** 
+ -->
+    <section class="container-fluid animation-element slide-right-carreras testimonial" id="carrusel">
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example" data-slide-to="1"></li>
+            <li data-target="#carousel-example" data-slide-to="2"></li>
+          </ol>
 
-			<div id="navbar" class="mover">
-				<ul>
-					<li><a href="">Inicio</a></li>
-					<li><a href="">Acerca</a></li>
-					<li><a href="">Proyectos</a></li>
-					<li><a href="">Contacto</a></li>
-				</ul>
-			</div>
-		</div>	
-	</div>
-	
+          <div class="carousel-inner">
+            <div class="item active">
+              <a href="#"><img src="img/4.jpg"/></a>
+              <div class="carousel-caption">
+              </div>
+            </div>
+            <div class="item">
+              <a href="#"><img src="img/2.jpg"/></a>
+              <div class="carousel-caption">
+
+              </div>
+            </div>
+            <div class="item">
+              <a href="#"><img src="img/3.jpg"/></a>
+              <div class="carousel-caption">
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#carousel-example" data-slide="prev" id="flecha-izq">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example" data-slide="next" id="flecha-der">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+    </section>
+<!--   ***********************************
+                Dirección Section
+       *********************************** 
+ -->
+    <div id="direccion">
+            <h1>Dirección</h1>
+
+            <div id="contDirec">
+                <div id="datosDirec" class="animation-element slide-left">
+                    <img src="img/directora.jpg">
+
+                    <div id="tarjeta">
+                        <p>MÁSTER OLDA BUSTILLOS ORTEGA<br> 
+                          <strong style="font-weight: 300; font-size: 12px; padding-right: 3px;">Directora de la Escuela de Ingeniería Informática</strong>
+                        </p>
+                    </div>
+                    
+                </div>
+                <div id="descripcionDirec" class="animation-element slide-right">
+                    <div id="trianguloIzqD"></div>
+                    <p id="textoDirec">
+                        <strong>Estimado estudiante:</strong> la Dirección de la Escuela de Ingeniería Informática le saluda muy cordialmente. Uno de nuestros objetivos es formarle profesionalmente, no solamente para que usted adquiera el conocimiento y las habilidades técnicas necesarias para incursionar en el mercado laboral con las demandas que este tiene en el escenario tecnológico, sino también para formarle en procesos de gestión de calidad, de comunicación y compromiso con usuario final. Como parte de esta formación, la Dirección de la Escuela de Ingeniería Informática programa cursos que se desarrollan paralelamente al plan de estudios y que son exclusivos para los estudiantes de las carreras de Sistemas, Software e Informática. Le invito a visitar nuestra página, conozca de nosotros y forme parte de nuestra Escuela.
+                    </p>
+                </div>
+                <div style="clear:both;"></div>
+                <p style="text-align: center; margin-top:10px;"><strong>Tel: </strong>(506) 2212-5500 Ext. 7037 <strong>E-mail:</strong> olda.bustillos@uia.ac.cr <br> <strong>Horario:</strong> De lunes a viernes de <strong>2:30 </strong>p.m. a <strong>7:00 </strong>p.m.</p>
+
+            </div>
+            
+        </div>
+<!--   ***********************************
+               Investigación Section
+       *********************************** 
+ -->
+    <section class="container-fluid" id="investigacion">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <h1 style="margin-top:40px; margin-bottom:30px;">INVESTIGACIÓN</h1>
+            </div>
+        </div>
+
+    <div class="menuFilter" >
+        <a href="#" class="current" data-filter="*">INVESTIGACIÓN CIENTÍFICA</a>   
+        <a href="#" class="active_tab" data-filter=".simposios">SIMPOSIOS</a>
+        <a href="#" class="active_tab" data-filter=".graduacion">PROYECTOS DE GRADUACION</a>
+        <a href="#" class="active_tab" data-filter=".articulos">ARTICULOS</a>
+    </div>
+
+        <div class="items" style="position:relative !important;">
+            <div class="simposios" style="position:relative !important;">
+                <div class="row simp" >  
+                    <div class="col-sm-3 padding-out" style="height:100%;">
+                        <div id="triangulo1"></div>
+                       
+                            <figure style="height:100%">
+                                <div id="cuadro1">
+                                    <h4 class="h3-invest">WEBSITE DESING</h4>
+                                    <p class="text-invest">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut unde</p>
+
+                                    <p class="text-invest">
+                                        <a href="#popup1"  class="leermas">LEER MAS</a>
+                                    </p>
+                                </div>
+                            </figure>
+                    </div>
+
+                    <div class="col-sm-3 padding-out" style="height:100%">
+                        <a href="#popup1" class="a-extension">
+                            <figure style="height:100%" >
+                                <img src="img/extension/2.jpg" class="img-extension" style="height:100%" >
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 padding-out" style="height:100%;">
+                        <div id="triangulo"></div>
+                            <figure style="height:100%">
+                                <div id="cuadro">
+                                    <h4 class="h3-invest">WEBSITE DESING</h4>
+                                    <p class="text-invest">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut unde</p>
+                                    <p class="text-invest">
+                                        <a href="#popup1"  class="leermas">LEER MAS</a>
+                                    </p>
+                                </div>
+                            </figure>
+                    </div>
+                    <div class="col-sm-3 padding-out" style="height:100%">
+                        <a href="#popup1" class="a-extension">
+                            <figure style="height:100%">
+                                <img src="img/extension/1.jpg" class="img-extension" style="height:100%" >
+                            </figure>
+                        </a>    
+                    </div>
+
+                </div> 
+            </div>
+
+            
+
+            <div class="investigacion" style="position:relative !important;">
+                <div class="row simp" >
+                    <div class="col-sm-3 padding-out" style="height:100%">
+                        <a href="#popup1" class="a-extension">
+                            <figure style="height:100%">
+                                <img src="img/extension/3.jpg" class="img-extension" style="height:100%">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-sm-3 padding-out" style="height:100%;">
+                        <div id="trianguloIzq"></div>
+                            <figure  style="height:100%" >
+                                <div id="cuadro">
+                                    <h4 class="h3-invest">WEBSITE DESING</h4>
+                                    <p class="text-invest">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut unde</p>
+                                    <p class="text-invest">
+                                        <a href="#popup1"  class="leermas">LEER MAS</a>
+                                    </p>
+                                </div>
+                            </figure>
+                    </div>
+                    <div class="col-sm-3 padding-out" style="height:100%">
+                        <a href="#popup1" class="a-extension">
+                            <figure style="height:100%">
+                                <img src="img/extension/1.jpg" class="img-extension" style="height:100%">
+                            </figure>
+                        </a>    
+                    </div>
+
+                    <div class="col-sm-3 padding-out" style="height:100%;">
+                        <div id="trianguloIzq1"></div>
+                            <figure style="height:100%">
+                                <div id="cuadro1">
+                                    <h4 class="h3-invest">WEBSITE DESING</h4>
+                                    <p class="text-invest">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut unde</p>
+                                    <p class="text-invest">
+                                        <a href="#popup1"  class="leermas">LEER MAS</a>
+                                    </p>
+                                </div>
+                            </figure>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+           
+
+    </section>
+<!--   ***********************************
+               Cursos Libres Section
+       *********************************** 
+ -->
+        <section class="container-fluid" id="cursoslibres">
+            <div>
+                <h1>CURSOS LIBRES</h1>
+                <h3>Aprende con nosotros de nuestros cursos libres</h3>
+                <p class="text-invest" style="margin-top: 35px;">
+                    <a href="#popup2" class="leermas">LEER MAS</a>
+                </p>
+            </div>
+        </section>
+<!--   ***********************************
+                Extension Section
+       *********************************** 
+ -->
+    <section class="container-fluid" id="extension">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <h1 style="margin:35px 0">PROYECTOS DE EXTENSIÓN</h1>
+                <p style="font-size:20px;font-weight:bold;">Este programa permite a los jóvenes costarricenses desarrollar nuevas oportunidades sociales y económicas para ellos, sus familias y sus comunidades. Esta capacitación es gratuita y al final se otorga un certificado.</p>
+            </div>
+ 
+            <div class="row">
+                <div class="col-sm-4 padding-out">
+                    <a href="#pop-ext-1" class="a-extension">
+                        <figure>
+                            <img src="img/extension/operaciones.png" class="img-extension" >
+                        </figure>
+                        
+                    </a>
+                </div>
+                <div class="col-sm-4 padding-out">
+                    <a href="#pop-ext-2" class="a-extension">
+                        <figure>
+                            <img src="img/extension/2.jpg" class="img-extension" >
+                        </figure>
+                        
+                    </a>
+                </div>
+                <div class="col-sm-4 padding-out">
+                    <a href="#pop-ext-3" class="a-extension">
+                        <figure >
+                            <img src="img/extension/3.jpg" class="img-extension" >
+                        </figure>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 padding-out">
+                    <a href="#pop-ext-4" class="a-extension">
+                        <figure>
+                            <img src="img/extension/4.jpg" class="img-extension" >
+                        </figure>
+                        
+                    </a>
+                </div>
+                <div class="col-sm-4 padding-out">
+                    <a href="#pop-ext-5" class="a-extension">
+                        <figure>
+                            <img src="img/extension/5.jpg" class="img-extension" >
+                        </figure>
+                        
+                    </a>
+                </div>
+                <div class="col-sm-4 padding-out">
+                    <a href="#pop-ext-6" class="a-extension">
+                        <figure >
+                            <img src="img/extension/6.jpg" class="img-extension" >
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--   ***********************************
+                Carreras Section
+       *********************************** 
+ -->
+    <section class="container-fluid" id="carreras">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <h1>CARRERAS</h1>
+            </div>
+
+            <div class="row animation-element slide-right-carreras testimonial">
+                <div id="divInfo" class="col-sm-4" style="text-align: center;">
+                    <a href="#popinfo">
+                        <figure>
+                            <img src="img/carreras/informatica.jpg" class="cuadroCarreras">
+                        </figure>
+
+                        <h4 class="h4carreras" style="background-color: rgb(53,152,219);">INGENIERÍA INFORMÁTICA</h4>
+                    </a>
+                </div>
+
+                <div id="divSistemas" class="col-sm-4" style="text-align: center;">
+                    <a href="#popsis">
+                        <figure>
+                             <img src="img/carreras/sistemas.jpg" class="cuadroCarreras">
+                        </figure>
+                        
+                        <h4 class="h4carreras" style="background-color: rgb(21,79,117);">INGENIERÍA EN SISTEMAS DE INFORMACIÓN</h4>
+                    </a>
+                </div>
+
+                <div id="divSoftware" class="col-sm-4" style="text-align: center;">
+                    <a href="#popsoft">
+                        <figure>
+                             <img src="img/carreras/software.jpg" class="cuadroCarreras">
+                        </figure>
+                        <h4 class="h4carreras" style="background-color: rgb(53,152,219);">INGENIERÍA DE SOFTWARE</h4>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+<!--   ***********************************
+                Cronograma Section
+       *********************************** 
+ -->
+    <section class="container-fluid" id="cronograma">
+        <div>
+            <h1>CRONOGRAMA</h1>
+            <h3>¡Mira nuestra agenda de actividades de este mes!</h3>
+             <p class="text-invest" style="margin-top: 35px;">
+                <a id="ver" class="leermas">LEER MAS</a>
+
+            </p>
+        </div>
+    </section>
+
+<!--   ***********************************
+                Time Line Section
+       *********************************** 
+ -->
+    <section id="timeline-ver">
+    <h2 style="text-align: center;">Elige la semana de la que quieres ver las actividades</h2>
+    <div class="menuFilterCronograma" style="text-align: center;">
+        <a style="padding:5px;font-size:14px;" href="#" class="current" data-filter=".semana4">SEMANA 1</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana4">SEMANA 2</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana4">SEMANA 3</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana4">SEMANA 4</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana5">SEMANA 5</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana6">SEMANA 6</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana7">SEMANA 7</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana8">SEMANA 8</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana9">SEMANA 9</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana10">SEMANA 10</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana11">SEMANA 11</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana12">SEMANA 12</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana13">SEMANA 13</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana14">SEMANA 14</a>
+        <a style="padding:5px;font-size:14px;" href="#" class="active_tab" data-filter=".semana15">SEMANA 15</a>
+    </div>
+    <!-- <ul class= "menuFilterCronograma" style="text-align:center; margin-top: 25px;">
+                            <li>
+                                <a href="#" class="current" data-filter=".semana4">SEMANA 4</a>
+                            </li>
+                            <li>
+                                <a href="#" class="active_tab" data-filter=".semana5">SEMANA 5</a>
+                            </li>
+                            <li>
+                                <a href="#" class="active_tab" data-filter=".graduacion">SEMANA 6</a>
+                            </li>
+                            <li>
+                                <a href="#">SEMANA 7</a>
+                            </li>
+                            <li>
+                                <a href="#">SEMANA 8</a>
+                            </li>
+                             <li>
+                                <a href="#">SEMANA 9</a>
+                            </li>
+                             <li>
+                                <a href="#">SEMANA 10</a>
+                            </li>
+                             <li>
+                                <a href="#">SEMANA 11</a>
+                            </li>
+                             <li>
+                                <a href="#">SEMANA 12</a>
+                            </li>
+                            <li>
+                                <a href="#">SEMANA 13</a>
+                            </li>
+                            <li>
+                                <a href="#">SEMANA 14</a>
+                            </li>
+                            <li>
+                                <a href="#">SEMANA 15</a>
+                            </li>
+
+                        </ul> -->
+    <section id="cd-timeline" class="cd-container ver">
+                            <div class="itemsCronograma" >
+                                
+                            <div class="semana4">
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o"  style=" ">
+                                        
+                                    </div> <!-- cd-timeline-img -->
+
+                                    <div class="cd-timeline-content">
+                                        <h2 style="font-size: 25px; font-weight:400;">CHARLA BIG DATA</h2>
+                                        <img src="img/big.jpg" >
+                                        <p>
+                                            <strong>Lugar: </strong>Laboratorio 1213
+                                            <br>
+                                            <strong>Hora: 5:00 p.m.</strong>
+                                            <br>
+                                            Charla de Big Data impartida por Eduardo Castro, PhD. 
+                                            <br>
+                                            Mentor Regional de SQL PASS para Latinoamerica, Líder de la Comunidad Windows Costa Rica, Experto en infraestructura y base de datos, más de 17 años de experiencia con herramientas Microsoft. Conferencista en SQL Server Pass Summit, Congreso Mundial de Arquitectura (IWS de IASA), The OpenGroup Enterprise Architecture Conference, IEEE Congress.
+                                        </p>
+                                        <!-- <a href="#0" class="cd-read-more">Leer más...</a> -->
+                                        <span class="cd-date"><strong>Lunes 30 de Mayo</strong></span>
+                                    </div> <!-- cd-timeline-content -->
+                                </div> <!-- cd-timeline-block -->
+
+                            </div>
+
+                            <div class="semana semana5">
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o">
+                                    </div> 
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 3</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                                        
+                                        <span class="cd-date">Jan 24</span>
+                                    </div> 
+                                </div>
+
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o">
+                                    </div> 
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 3</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                                        
+                                        <span class="cd-date">Jan 24</span>
+                                    </div> 
+                                </div> 
+
+                            </div>
+
+                            <div class="semana semana6">
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o">
+                                        
+                                    </div> <!-- cd-timeline-img -->
+
+                                    <div class="cd-timeline-content">
+                                        <h2 style="font-size: 25px; font-weight:400;">CHARLA BIG DATA</h2>
+                                        <img src="img/big.jpg">
+                                        <p>
+                                            <strong>Lugar: </strong>Laboratorio 1213
+                                            <br>
+                                            <strong>Hora: 5:00 p.m.</strong>
+                                            <br>
+                                            Charla de Big Data impartida por Eduardo Castro, PhD. 
+                                            <br>
+                                            Mentor Regional de SQL PASS para Latinoamerica, Líder de la Comunidad Windows Costa Rica, Experto en infraestructura y base de datos, más de 17 años de experiencia con herramientas Microsoft. Conferencista en SQL Server Pass Summit, Congreso Mundial de Arquitectura (IWS de IASA), The OpenGroup Enterprise Architecture Conference, IEEE Congress.
+                                        </p>
+                                        <!-- <a href="#0" class="cd-read-more">Leer más...</a> -->
+                                        <span class="cd-date"><strong>Lunes 30 de Mayo</strong></span>
+                                    </div> <!-- cd-timeline-content -->
+                                </div> <!-- cd-timeline-block -->
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o">
+                                    </div> 
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 3</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                                        
+                                        <span class="cd-date">Jan 24</span>
+                                    </div> 
+                                </div> 
+
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-location fa fa-calendar-check-o">
+                                    </div> 
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 4</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                                        
+                                        <span class="cd-date">Feb 14</span>
+                                    </div> 
+                                </div> 
+
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-location fa fa-calendar-check-o">
+                                    </div>
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 5</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+                                        
+                                        <span class="cd-date">Feb 18</span>
+                                    </div>
+                                </div>
+
+                                 <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-location fa fa-calendar-check-o">
+                                    </div>
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 5</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+                                        
+                                        <span class="cd-date">Feb 20</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="semana semana7">
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o">
+                                        
+                                    </div> <!-- cd-timeline-img -->
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 3</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                                        
+                                        <span class="cd-date">Jan 24</span>
+                                    </div>  <!-- cd-timeline-content -->
+
+                                    <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-location fa fa-calendar-check-o">
+                                    </div> 
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 4</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                                        
+                                        <span class="cd-date">Feb 14</span>
+                                    </div> 
+                                </div> 
+                                </div> <!-- cd-timeline-block -->
+                            </div>
+
+                            <div class="semana semana8">
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o">
+                                        
+                                    </div> <!-- cd-timeline-img -->
+
+                                    <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o">
+                                    </div> 
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 3</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                                        
+                                        <span class="cd-date">Jan 24</span>
+                                    </div> 
+                                </div> 
+                                </div> <!-- cd-timeline-block -->
+                            </div>
+
+
+                            <div class="semana semana9">
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o">
+                                        
+                                    </div> <!-- cd-timeline-img -->
+
+                                    <div class="cd-timeline-content">
+                                        <h2 style="font-size: 25px; font-weight:400;">CHARLA BIG DATA</h2>
+                                        <img src="img/big.jpg">
+                                        <p>
+                                            <strong>Lugar: </strong>Laboratorio 1213
+                                            <br>
+                                            <strong>Hora: 5:00 p.m.</strong>
+                                            <br>
+                                            Charla de Big Data impartida por Eduardo Castro, PhD. 
+                                            <br>
+                                            Mentor Regional de SQL PASS para Latinoamerica, Líder de la Comunidad Windows Costa Rica, Experto en infraestructura y base de datos, más de 17 años de experiencia con herramientas Microsoft. Conferencista en SQL Server Pass Summit, Congreso Mundial de Arquitectura (IWS de IASA), The OpenGroup Enterprise Architecture Conference, IEEE Congress.
+                                        </p>
+                                        <!-- <a href="#0" class="cd-read-more">Leer más...</a> -->
+                                        <span class="cd-date"><strong>Lunes 30 de Mayo</strong></span>
+                                    </div> <!-- cd-timeline-content -->
+                                </div> <!-- cd-timeline-block -->
+                            </div>
+
+
+                            <div class="semana semana10">
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o">
+                                    </div> 
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 3</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                                        
+                                        <span class="cd-date">Jan 24</span>
+                                    </div> 
+                                </div>
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o">
+                                    </div> 
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 3</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                                        
+                                        <span class="cd-date">Jan 24</span>
+                                    </div> 
+                                </div> 
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o">
+                                    </div> 
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 3</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                                        
+                                        <span class="cd-date">Jan 24</span>
+                                    </div> 
+                                </div> 
+                            </div>
+                       <!--          
+
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-picture fa fa-calendar-check-o" style=" padding-left: 18px; padding-top: 17px; height: 60px; font-size: 25px; color:white;">
+                                    </div> 
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 3</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+                                        <a href="#0" class="cd-read-more">Read more</a>
+                                        <span class="cd-date">Jan 24</span>
+                                    </div> 
+                                </div> 
+
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-location fa fa-calendar-check-o" style=" padding-left: 18px; padding-top: 17px; height: 60px; font-size: 25px; color:white;">
+                                    </div> 
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 4</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+                                        <a href="#0" class="cd-read-more">Read more</a>
+                                        <span class="cd-date">Feb 14</span>
+                                    </div> 
+                                </div> 
+
+                                <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-location fa fa-calendar-check-o" style=" padding-left: 18px; padding-top: 17px; height: 60px; font-size: 25px; color:white;">
+                                    </div>
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 5</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+                                        <a href="#0" class="cd-read-more">Read more</a>
+                                        <span class="cd-date">Feb 18</span>
+                                    </div>
+                                </div>
+
+                                 <div class="cd-timeline-block">
+                                    <div class="cd-timeline-img cd-location fa fa-calendar-check-o" style=" padding-left: 18px; padding-top: 17px; height: 60px; font-size: 25px; color:white;">
+                                    </div>
+
+                                    <div class="cd-timeline-content">
+                                        <h2>Title of section 5</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+                                        <a href="#0" class="cd-read-more">Read more</a>
+                                        <span class="cd-date">Feb 20</span>
+                                    </div>
+                                </div>
+ -->
+                        </div>
+                            </section>
+    </section>
+<!--   ***********************************
+                Actividades Section
+       *********************************** 
+ -->
+    <section class="container-fluid" id="actividades">
+        <div class="row" style="height:100%;">
+            
+            <div class="col-sm-4" style="height: 100%; display: inline-block; background-color: rgb(53,152,219);">
+                <div id="trianguloAct"></div>
+                <h3 class="h3-invest" style="margin-top: 10%;">Galería</h3>
+                <p class="text-invest">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut unde</p>
+                <p class="text-invest">
+                </p>
+                <div class="row" style="text-align: center;">
+                    
+                </div>
+            </div>
+            <div class="col-sm-8 padding-out" style="height:100%;">
+
+                <div class="row padding-out" style="height:50%;">
+                    <!--Galeria 1-->
+                    <a style="height: 100%; display: inline-block; padding-left:0; padding-right:0;" href='img/fotos/Seguridad en Base de Datos/1.jpg' class="col-sm-6 fresco" data-fresco-group='seguridad'>
+                        <img src= "img/fotos/Seguridad en Base de Datos/1.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Seguridad en Base de Datos/2.jpg' class="col-sm-6 fresco" data-fresco-group='seguridad'>
+                        <img src= "img/fotos/Seguridad en Base de Datos/2.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Seguridad en Base de Datos/3.jpg' class="col-sm-6 fresco" data-fresco-group='seguridad'>
+                        <img src= "img/fotos/Seguridad en Base de Datos/3.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Seguridad en Base de Datos/4.jpg' class="col-sm-6 fresco" data-fresco-group='seguridad'>
+                        <img src= "img/fotos/Seguridad en Base de Datos/4.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+
+                    <!--Galeria 2-->
+                    <a style="height: 100%; display: inline-block; padding-left:0; padding-right:0;" href='img/fotos/Git y Github (Intel)/21.jpg' class="col-sm-6 fresco" data-fresco-group='intel'>
+                        <img src= "img/fotos/Git y Github (Intel)/21.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Git y Github (Intel)/01.jpg' class="col-sm-6 fresco" data-fresco-group='intel'>
+                        <img src= "img/fotos/Git y Github (Intel)/01.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Git y Github (Intel)/02.jpg' class="col-sm-6 fresco" data-fresco-group='intel'>
+                        <img src= "img/fotos/Git y Github (Intel)/02.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Git y Github (Intel)/03.jpg' class="col-sm-6 fresco" data-fresco-group='intel'>
+                        <img src= "img/fotos/Git y Github (Intel)/03.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+                </div>
+
+                <!--Abajo-->
+
+
+                <div class="row padding-out" style="height:50%;">
+                    <!--Galería 1-->
+                    <a style="height: 100%; display: inline-block; padding-left:0; padding-right:0;" href='img/fotos/Xamarin/10.jpg' class="col-sm-6 fresco" data-fresco-group='xamarin'>
+                        <img src= "img/fotos/Xamarin/10.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Xamarin/2.jpg' class="col-sm-6 fresco" data-fresco-group='xamarin'>
+                        <img src= "img/fotos/Xamarin/2.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Xamarin/3.jpg' class="col-sm-6 fresco" data-fresco-group='xamarin'>
+                        <img src= "img/fotos/Xamarin/3.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Xamarin/4.jpg' class="col-sm-6 fresco" data-fresco-group='xamarin'>
+                        <img src= "img/fotos/Xamarin/4.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Xamarin/5.jpg' class="col-sm-6 fresco" data-fresco-group='xamarin'>
+                        <img src= "img/fotos/Xamarin/5.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+
+                    <!--Galería 2-->
+
+                    <a style="height: 100%; display: inline-block; padding-left:0; padding-right:0;" href='img/fotos/Microsoft Azure con Android/9.jpg' class="col-sm-6 fresco" data-fresco-group='microazure'>
+                        <img src= "img/fotos/Microsoft Azure con Android/9.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Microsoft Azure con Android/1.jpg' class="col-sm-6 fresco" data-fresco-group='microazure'>
+                        <img src= "img/fotos/Microsoft Azure con Android/1.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Microsoft Azure con Android/2.jpg' class="col-sm-6 fresco" data-fresco-group='microazure'>
+                        <img src= "img/fotos/Microsoft Azure con Android/2.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Microsoft Azure con Android/3.jpg' class="col-sm-6 fresco" data-fresco-group='microazure'>
+                        <img src= "img/fotos/Microsoft Azure con Android/3.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+                    <a style="height: 100%; display: none; padding-left:0; padding-right:0;" href='img/fotos/Microsoft Azure con Android/4.jpg' class="col-sm-6 fresco" data-fresco-group='microazure'>
+                        <img src= "img/fotos/Microsoft Azure con Android/4.jpg" style="width:100%; height: 100%; "/>
+                    </a>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+<!--   ***********************************
+                Empleos Section
+       *********************************** 
+ -->
+    <section class="container-fluid" id="empleos">
+        <div>
+            <h1>BOLSA DE EMPLEO</h1>
+            <h3>¡Mira nuestra agenda de actividades de este mes!</h3>
+             <p class="text-invest" style="margin-top: 35px;">
+                <a href="#popup6" class="leermas">LEER MAS</a>
+            </p>
+        </div>
+    </section>
+<!--   ***********************************
+                Footer Section
+       *********************************** 
+ -->  
+<div id="footer">
+  <div class="container">
+  <figure>
+      <img src="img/logonegrouia.png" id="logofoo">
+  </figure>
+    <p class="text-muted credit" style="text-align: right;">COPYRIGHT© 2016 - UIA - EII, TODOS LOS DERECHOS RESERVADOS</a>.</p>
+  </div>
+</div>
+<!--   ***********************************
+                POPUP Section
+       *********************************** 
+ -->
+                <div id="popup1" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#investigacion" style="z-index:9999;">&times;</a>
+                        <div class="row">
+
+                            <div class="col-sm-4" >
+                                <h2 class="pop-h2">INVESTIGACIÓN</h2>
+                                <p class="pop-p">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita rem explicabo nihil, harum sint sunt aliquam, nemo iste impedit eos voluptatum sed. Excepturi eaque quod ullam culpa, praesentium beatae distinctio.
+
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis at illum perferendis. Distinctio repudiandae eveniet, architecto voluptatem iste ut quas maiores dolorem amet libero, mollitia eos sit nihil incidunt consequatur.
+
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore autem quibusdam expedita eveniet, eum assumenda dignissimos fuga rem, cupiditate officia quis non quam. Ad a ab, minus nihil pariatur.
+
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit iure accusantium, animi, veritatis non porro magni rem dolore praesentium nobis cumque tenetur iusto distinctio soluta laborum aspernatur maiores consequuntur vero.
+
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet delectus, porro soluta voluptates similique sit pariatur tempora maiores inventore provident earum dicta optio odit molestiae illum qui, architecto necessitatibus tempore!
+                                </p>
+                            </div>
+                            <div class="col-sm-8 padding-out">
+                               <figure>
+                                   <img src="img/mac.jpg" alt="" style="width:100%;">
+                               </figure>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div id="popup2" class="overlay">
+                    <div class="popup" style="padding-left:0; height:100%; margin:25px auto; background:none;">
+                        <a class="close" href="#cursoslibres" style="z-index:9999;">&times;</a>
+                    <div class="row" style="height:100%;">
+                        <!--Sheet Slider-->
+                            <div class="sheet-slider" style="height:100%; background:none;">
+                               <input id="s1" class="sheet" type="radio" name="slide1" checked/>
+                               <input id="s2" class="sheet" type="radio" name="slide1"/>
+                               <input id="s3" class="sheet" type="radio" name="slide1"/>
+                               <input id="s4" class="sheet" type="radio" name="slide1"/>
+                               
+                               <ul>
+                               <!--imagenes-->
+                                  <li class="tab">
+                                     <img src="img/2.jpg" />
+                                     <!-- <div>
+                                        <h3>2 Weeks</h3>
+                                        <span>Texto secundario con <a href="#urlPage">enlace</a></span>
+                                     </div> -->
+                                  </li>
+                                  
+                                  <li class="tab">
+                                     <img src="img/2.jpg"/>
+                                     <!-- <div>
+                                        <h3>Artwork surreal</h3>
+                                        <span>Texto secundario sin enlace</span>
+                                     </div> -->
+                                  </li>
+                                  
+                                  <li class="tab">
+                                     <img src="img/3.jpg"/>
+                                    <!--  <div>
+                                        <h3>Cat under a carpet</h3>
+                                        <span>Texto secundario sin enlace</span>
+                                     </div> -->
+                                  </li>
+                                  
+                                  <li class="tab">
+                                     <img src="img/4.jpg"/>
+                                     <!-- <div>
+                                        <h3>Watercolor landscape</h3>
+                                        <span>Texto secundario con <a href="#urlPage">enlace</a></span>
+                                     </div> -->
+                                  </li>
+                                   
+                               </ul>
+                             
+                               <!--flechas-->
+                               <div class="sh-arrows">
+                                  <label for="s1"></label>
+                                  <label for="s2"></label>
+                                  <label for="s3"></label>
+                                  <label for="s4"></label>
+                               </div>
+                            </div>
+                            <!--Fin de Sheet Slider-->
+                    </div>
+                        
+                        
+                            
+                    </div>
+                </div>
+
+                <div id="pop-ext-1" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#extension" style="z-index:9999;">&times;</a>
+                    <div class="row">
+
+
+                        <div class="col-sm-4" >
+                            <h2 class="pop-h2">Aplicación de escritorio para el aprendizaje de operaciones básicas, para niños entre 9 y 10 años.</h2>
+                            <p class="pop-p">
+                                La aplicación permite enseñar al niño las cuatro operaciones básicas (suma, resta, división y multiplicación), a través de un juego y mediante instrucciones y ejemplos sencillos adaptados a las edades de referencia. 
+                                </br>
+                                </br>
+                                El sistema muestra una ventana en donde se explica sobre el objetivo del juego y la lista de operaciones, el niño selecciona la operación y juega, ganando caritas felices por cada operación correcta y recibiendo una motivación de intentarlo de nuevo, en caso que el resultado sea incorrecto.
+                            </p>
+                        </div>
+                        <div class="col-sm-8 padding-out">
+                           <figure>
+                               <img src="img/extension/operaciones.png" alt="" style="width:100%;">
+                           </figure>
+                        </div>
+                    </div>    
+                    </div>
+                </div>
+                <div id="pop-ext-2" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#extension" style="z-index:9999;">&times;</a>
+                    <div class="row">
+
+                        <div class="col-sm-4" >
+                            <h2 class="pop-h2">Desarrollo de una aplicación para el manejo del servicio de comedor.</h2>
+                            <p class="pop-p">
+                                Esta aplicación permite registrar los datos generales de los estudiantes que tengan una beca para uso del comedor del colegio, también permite llevar el control de la cantidad de ausencias por estudiante, ya que la beca se pierde si se acumula una cantidad específica de ausencias al comedor. 
+                                </br>
+                                </br>
+                                El sistema también proporciona diferentes estadísticas sobre el uso del comedor, por ejemplo, cantidad de estudiantes sin beca que utilizaron el comedor, montos recaudados por uso del comedor.
+                                
+                            </p>
+                        </div>
+                        <div class="col-sm-8 padding-out">
+                           <figure>
+                               <img src="img/extension/2.jpg" alt="" style="width:100%;">
+                           </figure>
+                        </div>
+                    </div>    
+                    </div>
+                </div>
+                <div id="pop-ext-3" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#extension" style="z-index:9999;">&times;</a>
+                    <div class="row">
+
+                        <div class="col-sm-4" >
+                            <h2 class="pop-h2">Capacitación en Soporte Técnico y redes para jóvenes en edades de 17 a 24 años en el Cantón de Tres Ríos.</h2>
+                            <p class="pop-p">
+                                Los jóvenes de esta población aprenden cómo solucionar problemas a nivel de software y hardware, así como de medios de comunicación y transmisión de datos. 
+                                </br>
+                                </br>
+                                También obtienen conocimientos sobre modelos de comunicaciones y sus capas, diseños físicos y lógicos de una red de computadores. Esta formación los posiciona en el mercado laboral con conocimientos actuales sobre equipos de cómputo, software de instalación y conceptos básicos de telecomunicaciones.                                 
+                            </p>
+                        </div>
+                        <div class="col-sm-8 padding-out">
+                           <figure>
+                               <img src="img/extension/3.jpg" alt="" style="width:100%;">
+                           </figure>
+                        </div>
+                    </div>    
+                    </div>
+                </div>
+                <div id="pop-ext-4" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#extension" style="z-index:9999;">&times;</a>
+                    <div class="row">
+
+                        <div class="col-sm-4" >
+                            <h2 class="pop-h2">Capacitación para el aprendizaje del lenguaje de programación Java para jóvenes en edades de 15 a 24 años.</h2>
+                            <p class="pop-p">
+                                Esta capacitación permite a los jóvenes adquirir conocimientos en la herramienta Java, en su última versión, con la cual pueden programar en un lenguaje orientado a objetos y con normas de diseño de software que le ayudan a crear aplicaciones con características como las que demanda el mercado laboral.                    
+                            </p>
+                        </div>
+                        <div class="col-sm-8 padding-out">
+                           <figure>
+                               <img src="img/extension/4.jpg" alt="" style="width:100%;">
+                           </figure>
+                        </div>
+                    </div>    
+                    </div>
+                </div>
+                 <div id="pop-ext-5" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#extension" style="z-index:9999;">&times;</a>
+                    <div class="row">
+
+                        <div class="col-sm-4" >
+                            <h2 class="pop-h2">Capacitación sobre el desarrollo de páginas Web para jóvenes en edades de 17 a 24 años.</h2>
+                            <p class="pop-p">
+                                Esta capacitación permite a los jóvenes adquirir conocimientos en la herramienta Visual Studio .NET como uno de los ambientes de desarrollo de sistemas más nuevos y de gran demanda en el mercado laboral, tanto nacional como internacional.                
+                            </p>
+                        </div>
+                        <div class="col-sm-8 padding-out">
+                           <figure>
+                               <img src="img/extension/5.jpg" alt="" style="width:100%;">
+                           </figure>
+                        </div>
+                    </div>    
+                    </div>
+                </div>
+                <div id="pop-ext-6" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#extension" style="z-index:9999;">&times;</a>
+                    <div class="row">
+
+                        <div class="col-sm-4" >
+                            <h2 class="pop-h2">Capacitación en PHP y HTML para jóvenes en edades de 15 a 24 años.</h2>
+                            <p class="pop-p">
+                                Esta formación permite a los jóvenes adquirir los fundamentos del lenguaje PHP, apoyado en la creación de páginas Web mediante HTML, Javascript y hojas de estilo, además, la manipulación de MySQL como Gestor de Base de datos. Por otra parte se le brinda las bases para utilizar el lenguaje PHP sobre los dispositivos móviles y utilizar diferentes componentes de redes sociales u otros servicios web para realizar sistemas más dinámicos y cumpliendo con las necesidades del mercado actual. El desarrollo de este tipo de herramientas tiene mucha demanda ya que las empresas realizan su marketing por medio de la Internet, pues es más fácil llegar a sus clientes de esta forma.                 
+                            </p>
+                        </div>
+                        <div class="col-sm-8 padding-out">
+                           <figure>
+                               <img src="img/extension/6.jpg" alt="" style="width:100%;">
+                           </figure>
+                        </div>
+                    </div>    
+                    </div>
+                </div>
+                <!-- Carreras -->
+                <div id="popinfo" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#carreras" style="z-index:9999;">&times;</a>
+                        <div class="row">
+
+                            <div class="col-sm-4" >
+                                <h2 class="pop-h2">INFORMÁTICA</h2>
+                                <p class="pop-p">
+                                    La tecnología de la información o T.I. se ha convertido en una disciplina de la computación que surge por la necesidad de las organizaciones de que sus sistemas funcionen apropiadamente, que sean seguros y que puedan ser mejorados o reemplazados cuando se requiera. Por esta razón las organizaciones requieren de personal que maneje los sistemas de cómputo y su software y que también resuelvan los problemas que se presenten. 
+                                    </br>
+                                    </br>
+                                    El profesional en Ingeniería en Informática está en capacidad de resolver, de manera creativa problemas de gestión de la información en un negocio determinado, en el cual se integren aspectos de software, hardware y redes, en un ambiente de trabajo multidisciplinario, aplicando sus conocimientos y habilidades en el diseño, desarrollo y mantenimiento de proyectos de informática para el mejor aprovechamiento de los recursos y la gestión útil de la información.
+                                    </br>
+                                    </br>
+                                     <a href="pdf/info-informatica.pdf" id="ver" class="leermas" style="color: black; margin-left: 25%; border-color: black;" target="_blank">LEER MAS</a>
+
+                                </p>
+                            </div>
+                            <div class="col-sm-8 padding-out">
+                               <figure>
+                                   <img src="img/carreras/informatica.jpg" alt="" style="width:100%;">
+                               </figure>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div id="popsis" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#carreras" style="z-index:9999;">&times;</a>
+                        <div class="row">
+
+                            <div class="col-sm-4" >
+                                <h2 class="pop-h2">SISTEMAS DE INFORMACIÓN</h2>
+                                <p class="pop-p">
+                                    El especialista en Sistemas de Información se enfoca en integrar las soluciones de la tecnología de la información y los procesos de negocios para encontrar las necesidades de información de la empresa, permitiendo alcanzar sus objetivos. Se enfatiza en la información mientras que la tecnología es el medio, en general el currículo de esta área de la computación, incluye cursos de negocios o administración con cursos de tecnología. 
+                                    </br>
+                                    </br>
+                                    El profesional en Ingeniería en Sistemas de Información está en capacidad de resolver, de manera creativa problemas de gestión de la información en un negocio determinado, en el cual se integren aspectos de software, hardware y redes, en un ambiente de trabajo multidisciplinario, aplicando sus conocimientos y habilidades en el diseño, desarrollo y mantenimiento de proyectos de informática para el mejor aprovechamiento de los recursos y la gestión útil de la información.
+                                    </br>
+                                    </br>
+                                     <a href="pdf/info-sistemas.pdf" id="ver" class="leermas" style="color: black; margin-left: 25%; border-color: black;" target="_blank">LEER MAS</a>
+                                </p>
+                            </div>
+                            <div class="col-sm-8 padding-out">
+                               <figure>
+                                   <img src="img/carreras/sistemas.jpg" alt="" style="width:100%;">
+                               </figure>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div id="popsoft" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#carreras" style="z-index:9999;">&times;</a>
+                        <div class="row">
+
+                            <div class="col-sm-4" >
+                                <h2 class="pop-h2">SOFTWARE</h2>
+                                <p class="pop-p">
+                                    La Ingeniería de Software es la disciplina de la computación que se encarga de desarrollar y mantener software que se comporte confiable y eficazmente, que sea accesible en su desarrollo y mantenimiento y satisfaga todos los requerimientos que los usuarios o clientes han definido. 
+                                    </br>
+                                    </br>
+                                    Por esta razón los estudiantes de esta disciplina aprenden a identificar y evaluar las necesidades de un usuario o cliente y diseñan software que se ajuste a esas necesidades. La Ingeniería de Software es el área de la informática dedicada al diseño, ejecución y evaluación del soporte de los programas, pero en particular con el desarrollo de aplicaciones informáticas diseñadas a la medida de un cliente específico.
+                                    </br>
+                                    </br>
+                                     <a href="pdf/info-software.pdf" id="ver" class="leermas" style="color: black; margin-left: 25%; border-color: black;" target="_blank">LEER MAS</a>
+                                </p>
+                            </div>
+                            <div class="col-sm-8 padding-out">
+                               <figure>
+                                   <img src="img/carreras/software.jpg" alt="" style="width:100%;">
+                               </figure>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+
+                <div id="popup5" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#actividades" style="z-index:9999;">&times;</a>
+                    <div class="row">
+
+                        <div class="col-sm-4" >
+                            <h2 class="pop-h2">ACTIVIDADES</h2>
+                            <p class="pop-p">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita rem explicabo nihil, harum sint sunt aliquam, nemo iste impedit eos voluptatum sed. Excepturi eaque quod ullam culpa, praesentium beatae distinctio.
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis at illum perferendis. Distinctio repudiandae eveniet, architecto voluptatem iste ut quas maiores dolorem amet libero, mollitia eos sit nihil incidunt consequatur.
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore autem quibusdam expedita eveniet, eum assumenda dignissimos fuga rem, cupiditate officia quis non quam. Ad a ab, minus nihil pariatur.
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit iure accusantium, animi, veritatis non porro magni rem dolore praesentium nobis cumque tenetur iusto distinctio soluta laborum aspernatur maiores consequuntur vero.
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet delectus, porro soluta voluptates similique sit pariatur tempora maiores inventore provident earum dicta optio odit molestiae illum qui, architecto necessitatibus tempore!
+                            </p>
+                        </div>
+                        <div class="col-sm-8 padding-out">
+                           <figure>
+                               <img src="img/mac.jpg" alt="" style="width:100%;">
+                           </figure>
+
+                        </div>
+                    </div>
+                        
+                        
+                            
+                    </div>
+                </div>
+                <div id="popup6" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#empleos" style="z-index:9999;">&times;</a>
+                    <div class="row">
+
+                        <div class="col-sm-4" >
+                            <h2 class="pop-h2">EMPLEOS</h2>
+                            <p class="pop-p">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita rem explicabo nihil, harum sint sunt aliquam, nemo iste impedit eos voluptatum sed. Excepturi eaque quod ullam culpa, praesentium beatae distinctio.
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis at illum perferendis. Distinctio repudiandae eveniet, architecto voluptatem iste ut quas maiores dolorem amet libero, mollitia eos sit nihil incidunt consequatur.
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore autem quibusdam expedita eveniet, eum assumenda dignissimos fuga rem, cupiditate officia quis non quam. Ad a ab, minus nihil pariatur.
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit iure accusantium, animi, veritatis non porro magni rem dolore praesentium nobis cumque tenetur iusto distinctio soluta laborum aspernatur maiores consequuntur vero.
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet delectus, porro soluta voluptates similique sit pariatur tempora maiores inventore provident earum dicta optio odit molestiae illum qui, architecto necessitatibus tempore!
+                            </p>
+                        </div>
+                        <div class="col-sm-8 padding-out">
+                           <figure>
+                               <img src="img/mac.jpg" alt="" style="width:100%;">
+                           </figure>
+
+                        </div>
+                    </div>
+                        
+                        
+                            
+                    </div>
+                </div>
+
+<!-- FIN POPUP -->
 </body>
+<!--   ***********************************
+                    Scripts
+       *********************************** 
+ -->
+<script src="js/animations.js"></script>
+   <!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+    <script src="js/fitros.js"></script>
+    <script src="js/filtroCronograma.js"></script>
+    <script src="js/isotope.js"></script> 
+
+    <!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+<script src="js/script.js"></script>
+<script src="js/scrolling-nav.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.stellar.js"></script>
+
+
+<script type="text/javascript">
+    $.stellar();        
+</script>
+
+<script>
+    $('#sidebar-btn').click(function(){
+        $('#sidebar').toggleClass('visible');
+        $('#sidebar-btn').toggleClass('visible');
+    })
+    // $('#sidebar-btn2').click(function(){
+    //     $('#sidebar').toggleClass('visible');
+    //     $('#sidebar-btn2').toggleClass('visible');
+    // })
+     $('#ver').click(function(){
+        $('#timeline-ver').toggleClass('visible');
+        $('#cronograma').toggleClass('visible');
+    })
+</script>
+<!-- <script>
+    /**
+    * Array con las imagenes que se iran mostrando en la web
+    */
+    var imagenes=new Array(
+        'img/extension/1.jpg',
+        'img/extension/2.jpg',
+        'img/extension/3.jpg',
+        'img/extension/4.jpg'
+    );
+    var imagenes2=new Array(
+        'img/actividades/1.jpg',
+        'img/actividades/2.jpg',
+        'img/actividades/3.jpg',
+        'img/actividades/4.jpg',
+        'img/actividades/5.jpg'
+    );
+    var imagenes3=new Array(
+        'img/actividades/1/1.jpg',
+        'img/actividades/1/2.jpg',
+        'img/actividades/1/3.jpg',
+        'img/actividades/1/4.jpg',
+        'img/actividades/1/5.jpg'
+    );
+    var imagenes4=new Array(
+        'img/actividades/5.jpg',
+        'img/extension/3.jpg',
+        'img/actividades/1/3.jpg',
+        'img/actividades/4.jpg',
+        'img/actividades/2.jpg'
+    );
+    /**
+    * Funcion para cambiar la imagen
+    */
+    function rotarImagenes()
+    {
+        // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+        var index=Math.floor((Math.random()*imagenes.length));
+ 
+        // cambiamos la imagen
+        document.getElementById("actividad-1").src=imagenes[index];
+    }
+    function rotarImagenes2()
+    {
+        // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+        var index=Math.floor((Math.random()*imagenes2.length));
+ 
+        // cambiamos la imagen
+        document.getElementById("actividad-2").src=imagenes2[index];
+    }
+    function rotarImagenes3()
+    {
+        // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+        var index=Math.floor((Math.random()*imagenes3.length));
+ 
+        // cambiamos la imagen
+        document.getElementById("actividad-3").src=imagenes3[index];
+    }
+    function rotarImagenes4()
+    {
+        // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+        var index=Math.floor((Math.random()*imagenes4.length));
+ 
+        // cambiamos la imagen
+        document.getElementById("actividad-4").src=imagenes4[index];
+    }
+ 
+    /**
+    * Función que se ejecuta una vez cargada la página
+    */
+    onload=function()
+    {
+        // Cargamos una imagen aleatoria
+        rotarImagenes();
+        rotarImagenes2();
+        rotarImagenes3();
+        rotarImagenes4();
+        // Indicamos que cada 3 segundos cambie la imagen
+        setInterval(rotarImagenes,3000);
+        setInterval(rotarImagenes2,3000);
+        setInterval(rotarImagenes3,3000);
+        setInterval(rotarImagenes4,3000);
+    }
+</script>
+<script>
+function myFunction() {
+    var x = document.getElementById("mySelect").value;
+    if x == "volvo"{
+        window.location.href = 'http://www.google.com';
+    }
+}
+</script> -->
+<script>
+  /**
+   * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
+   *
+   * @private
+   * @author Todd Motto
+   * @link https://github.com/toddmotto/foreach
+   * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList
+   * @callback requestCallback      callback   - Callback function for each iteration.
+   * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
+   * @returns {}
+   */
+    var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+
+    var hamburgers = document.querySelectorAll(".hamburger");
+    if (hamburgers.length > 0) {
+      forEach(hamburgers, function(hamburger) {
+        hamburger.addEventListener("click", function() {
+          this.classList.toggle("is-active");
+        }, false);
+      });
+    }
+  </script>
 </html>
